@@ -4,7 +4,7 @@ This repository contains the code and data for the paper "Knoop: Practical Enhan
 
 ## Table of Contents
 - [Background](#background)
--[Data Sources](#data-sources)
+- [Data Sources](#data-sources)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
