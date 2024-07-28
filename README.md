@@ -36,6 +36,7 @@ The following Python libraries are required to run the code in this repository:
 - torchvision==0.18.0
 - tqdm
 - xgboost==2.1.0
+
 You can install these dependencies using:
 ```bash
 pip install -r requirements.txt
@@ -62,6 +63,7 @@ python scripts/real_data_experiments/superconductivity/get_everything_about_Best
 Make sure to prepare the data according to the instructions in the data/readme.txt.
 
 ## Project Structure
+```plaintext
 Knoop-Knockoff-Enhancement/
 ├── README.md
 ├── LICENSE
@@ -84,7 +86,7 @@ Knoop-Knockoff-Enhancement/
 │   ├── simulations/
 │   └── real_data_experiments/
 └── tests/
-
+```
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
