@@ -4,11 +4,10 @@ This repository contains the code and data for the paper "Knoop: Practical Enhan
 
 ## Table of Contents
 - [Background](#background)
+-[Data Sources](#data-sources)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Examples](#examples)
 - [Project Structure](#project-structure)
-- [Contributing](#contributing)
 - [License](#license)
 - [References](#references)
 
@@ -19,7 +18,7 @@ In this project, we present an enhancement to the Knockoff filter method using o
 - Alon dataset: [CRAN AlonDS](https://search.r-project.org/CRAN/refmans/HiDimDA/html/AlonDS.html)
 - Superconductivity dataset, Energy dataset, Community and Crime dataset: [UCI Machine Learning Repository](https://archive.ics.uci.edu/datasets)
 
-## Requirements
+## Installation
 The following Python libraries are required to run the code in this repository:
 
 - choldate==0.1.0
