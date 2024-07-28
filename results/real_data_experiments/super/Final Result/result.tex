@@ -1,0 +1,80 @@
+\documentclass{article}
+\title{KnockBO Experimental Results Report}
+
+\usepackage{booktabs} % 用于创建漂亮的表格线条
+\usepackage{afterpage}
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{enumerate}
+\usepackage{mathrsfs}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage{subfigure}
+\usepackage{subcaption}
+\usepackage{caption}
+\usepackage[top=2.8cm, bottom=2.8cm]{geometry} % 用于调整页面布局
+
+\geometry{
+    left=0.2in,
+    right=0.2in
+}
+
+
+
+\begin{document}
+\maketitle
+
+\begin{table}[H]
+  \centering
+  	\begin{tabular}{cccccccc}
+	\toprule
+	K & Our Method & Knockoff & Ridge & Lasso & ElasticNet & Lars  \\
+	\midrule
+	1 & \textbf{500.294} & 902.344 & 972.984 & 984.685 & 984.685 & 703.386 \\
+	2 & \textbf{450.471} & 905.693 & 985.651 & 1068.084 & 1049.803 & 564.996 \\
+	3 & \textbf{291.303} & 895.599 & 1139.683 & 1179.145 & 1179.145 & 509.339 \\
+	4 & \textbf{271.428} & 987.421 & 1111.251 & 603.423 & 646.233 & 504.878 \\
+	5 & \textbf{298.576} & 992.773 & 789.947 & 428.189 & 428.189 & 415.871 \\
+	6 & \textbf{304.411} & 947.314 & 490.541 & 313.157 & 419.134 & 422.364 \\
+	7 & \textbf{304.175} & 812.628 & 472.951 & 301.656 & 310.415 & 306.114 \\
+	8 & 304.704 & 882.645 & 485.030 & 309.518 & \textbf{234.797} & 306.424 \\
+	9 & 334.706 & 828.429 & 339.265 & 248.358 & 409.882 & \textbf{221.897} \\
+	10 & 335.688 & 675.944 & 310.359 & 222.142 & 401.299 & \textbf{221.614} \\
+
+	\bottomrule
+	\end{tabular}
+\end{table}
+
+
+
+
+
+
+\begin{table}[H]
+  \centering
+	\begin{tabular}{ccc}
+	\toprule
+	Method & K & MSE \\
+	\midrule
+	Bat Algorithm & 25 & 154.764 \\
+	Cuckoo Search Algorithm & 18 & 161.826 \\
+	Differential Evolution & 25 & 184.042 \\
+	Firefly Algorithm & 34 & 258.627 \\
+	Flower Pollination Algorithm & 34 & 194.983 \\
+	Genetic Algorithm & 2 & 746.866 \\
+	Grey Wolf Optimizer & 6 & 198.085 \\
+	Harris Hawk Optimization & 3 & 711.728 \\
+	Jaya Algorithm & 17 & 213.335 \\
+	Particle Swarm Optimization & 19 & 257.232 \\
+	Sine Cosine Algorithm & 2 & 756.422 \\
+	Salp Swarm Algorithm & 33 & 188.733 \\
+	Whale Optimization Algorithm & 2 & 467.661 \\
+	\bottomrule
+	\end{tabular}
+
+\end{table}
+
+
+
+
+\end{document}

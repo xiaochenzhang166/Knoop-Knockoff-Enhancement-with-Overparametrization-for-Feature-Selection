@@ -1,0 +1,19 @@
+\begin{tabular}{lrr}
+\toprule
+Name & featureNumbers & MSE \\
+\midrule
+ba & 28 & 0.010 \\
+cs & 19 & 0.003 \\
+de & 19 & 0.014 \\
+fa & 33 & 0.003 \\
+fpa & 31 & 0.010 \\
+ga & 2 & 0.000 \\
+gwo & 1 & 0.000 \\
+hho & 1 & 0.000 \\
+ja & 19 & 0.003 \\
+pso & 24 & 0.031 \\
+sca & 1 & 0.000 \\
+ssa & 34 & 0.006 \\
+woa & 1 & 0.000 \\
+\bottomrule
+\end{tabular}

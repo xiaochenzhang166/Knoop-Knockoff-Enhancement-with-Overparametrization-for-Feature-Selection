@@ -1,0 +1,85 @@
+\documentclass{article}
+\title{KnockBO Experimental Results Report}
+
+\usepackage{booktabs} % 用于创建漂亮的表格线条
+\usepackage{afterpage}
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{enumerate}
+\usepackage{mathrsfs}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage{subfigure}
+\usepackage{subcaption}
+\usepackage{caption}
+\usepackage[top=2.8cm, bottom=2.8cm]{geometry} % 用于调整页面布局
+\usepackage{siunitx}
+\usepackage{bm}
+
+
+\sisetup{
+text-series-to-math = true ,
+propagate-math-font = true
+}
+
+\geometry{
+    left=0.2in,
+    right=0.2in
+}
+
+
+
+\begin{document}
+\maketitle
+
+
+
+\begin{table}
+  \centering
+  	\begin{tabular}{cccccccc}
+	\toprule
+	K & Our Method &   Knockoff &   Ridge Regression &     Lasso &   ElasticNet &      Lars &   Forward Selection \\
+	\midrule
+ 	1 &    \num{3.147e-07} &  \num{2.420e-06}  &          \num{2.084e-04} & \num{2.420e-06}  &    \num{2.420e-06}  & \num{5.869e-04} &           \textbf{\num{1.103e-07}} \\
+	2 &     \textbf{\num{5.447e-07}} &  \num{2.445e-06} &          \num{2.187e-04} & \num{2.445e-06} &    \num{2.445e-06} & \num{5.120e-04}  &           \num{2.181e-06} \\
+  	3 &    \textbf{\num{7.150e-06}}  &  \num{1.381e-03}  &          \num{2.465e-04} & \num{1.381e-03}  &    \num{1.381e-03}  & \num{1.034e-03}  &           \num{1.333e-04} \\
+	4 &    \textbf{\num{6.320e-06}}  &  \num{1.763e-03}  &         \num{2.522e-04} & \num{1.763e-03}  &    \num{1.763e-03}  & \num{1.961e-02}   &           \num{1.338e-04} \\
+	5 &    \textbf{\num{1.604e-05}} & \num{ 1.570e-03}   &          \num{1.402e-04} &\num{1.570e-03}   &    \num{1.570e-03}   & \num{1.918e-02}   &           \num{1.318e-04} \\
+	6 &    \textbf{\num{1.522e-05}} &  \num{1.971e-03}  &          \num{2.822e-04} & \num{1.971e-03}  &    \num{1.971e-03}  & \num{1.922e-02}   &           \num{1.145e-04} \\
+	7 &    \textbf{\num{2.062e-05}} &  \num{6.519e-03} &          \num{2.607e-04} & \num{6.519e-03}  &    \num{6.519e-03}  & \num{1.120e-02}    &           \num{1.091e-04} \\
+	8 &    \textbf{\num{4.015e-05}} &  \num{8.853e-03  }&          \num{9.213e-04} & \num{8.853e-03}  &    \num{8.853e-03}  & \num{1.828e-02}   &           \num{1.070e-04}  \\
+	9 &    \textbf{\num{1.132e-05}} &  \num{8.704e-03  }&          \num{1.074e-03}  & \num{8.704e-03}  &    \num{8.704e-03}  & \num{3.140e-02}    &           \num{1.060e-04}  \\
+	10 &    \textbf{\num{1.085e-05}} &  \num{8.764e-03 } &          \num{3.224e-05} & \num{8.764e-03}  &    \num{8.764e-03}  & \num{2.290e-02}    &           \num{1.116e-04} \\
+	\bottomrule
+	\end{tabular}
+\end{table}
+
+
+
+\begin{table}
+  \centering
+
+	\begin{tabular}{ccc}
+	\toprule
+	Method & K & MSE \\
+	\midrule
+	Bat Algorithm & 28 & \num{1.02E-02} \\
+	Cuckoo Search Algorithm & 19 & \num{2.91E-03} \\
+	Differential Evolution & 19 & \num{1.42E-02} \\
+	Firefly Algorithm & 33 & \num{3.17E-03} \\
+	Flower Pollination Algorithm & 31 & \num{1.00E-02} \\
+	Genetic Algorithm & 2 & \num{3.55E-05} \\
+	Grey Wolf Optimizer & 1 & \num{2.10E-05} \\
+	Harris Hawk Optimization & 1 & \num{2.52E-04} \\
+	Jaya Algorithm & 19 & \num{2.78E-03} \\
+	Particle Swarm Optimization & 24 & \num{3.13E-02} \\
+	Sine Cosine Algorithm & 1 & \num{3.68E-05} \\
+	Salp Swarm Algorithm & 34 & \num{5.89E-03} \\
+	Whale Optimization Algorithm & 1 & \num{1.08E-05} \\
+	\bottomrule
+	\end{tabular}
+
+\end{table}
+
+
+\end{document}

@@ -1,0 +1,19 @@
+\begin{tabular}{lrr}
+\toprule
+Name & featureNumbers & MSE \\
+\midrule
+ba & 7 & 4490.193 \\
+cs & 8 & 3895.718 \\
+de & 4 & 4700.070 \\
+fa & 6 & 4647.076 \\
+fpa & 11 & 4017.227 \\
+ga & 5 & 4532.626 \\
+gwo & 4 & 4049.638 \\
+hho & 2 & 4995.574 \\
+ja & 7 & 4502.408 \\
+pso & 7 & 3935.639 \\
+sca & 8 & 4096.047 \\
+ssa & 8 & 3798.101 \\
+woa & 3 & 5057.756 \\
+\bottomrule
+\end{tabular}

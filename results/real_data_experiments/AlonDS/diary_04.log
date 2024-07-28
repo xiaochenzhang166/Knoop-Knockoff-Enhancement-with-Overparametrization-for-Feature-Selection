@@ -1,0 +1,57 @@
+nohup: ignoring input
+===ATTENTION: This code should only run on the REMOTE LINUX device.=== 
+2000 Train features are loaded.
+Generating knockoff matrix for training features...
+  0%|          | 0/3 [00:00<?, ?it/s]Using blockdiag approx. with nblocks=3 and max_size=1000...
+/home/zhangxiaochen/anaconda3/envs/knockBO-env/lib/python3.12/site-packages/knockpy/mrc.py:276: UserWarning: 
+	---------------------------------------------------------
+	---------------------------------------------------------
+	The choldate package is not installed:
+	solving for MVR or maxent knockoffs without it will be 
+	~5x slower. For instructions on how to install choldate,
+	see https://amspector100.github.io/knockpy/installation.html.
+	To disable this warning, set choldate_warning=False as an 
+	argument or a knockoff_kwarg.
+	----------------------------------------------------------
+	----------------------------------------------------------
+
+  warnings.warn(constants.CHOLDATE_WARNING)
+Finished comp of blocks, putting together
+/home/zhangxiaochen/anaconda3/envs/knockBO-env/lib/python3.12/site-packages/knockpy/mrc.py:90: RuntimeWarning: divide by zero encountered in divide
+  trace_invG = (1 / (eigs_diff + smoothing)).sum() + (1 / (eigs_S + smoothing)).sum()
+ 33%|███▎      | 1/3 [04:17<08:35, 257.75s/it]Using blockdiag approx. with nblocks=5 and max_size=1000...
+/home/zhangxiaochen/anaconda3/envs/knockBO-env/lib/python3.12/site-packages/knockpy/mrc.py:276: UserWarning: 
+	---------------------------------------------------------
+	---------------------------------------------------------
+	The choldate package is not installed:
+	solving for MVR or maxent knockoffs without it will be 
+	~5x slower. For instructions on how to install choldate,
+	see https://amspector100.github.io/knockpy/installation.html.
+	To disable this warning, set choldate_warning=False as an 
+	argument or a knockoff_kwarg.
+	----------------------------------------------------------
+	----------------------------------------------------------
+
+  warnings.warn(constants.CHOLDATE_WARNING)
+Finished comp of blocks, putting together
+/home/zhangxiaochen/anaconda3/envs/knockBO-env/lib/python3.12/site-packages/knockpy/mrc.py:90: RuntimeWarning: divide by zero encountered in divide
+  trace_invG = (1 / (eigs_diff + smoothing)).sum() + (1 / (eigs_S + smoothing)).sum()
+ 67%|██████▋   | 2/3 [16:10<08:45, 525.67s/it]Using blockdiag approx. with nblocks=9 and max_size=1000...
+/home/zhangxiaochen/anaconda3/envs/knockBO-env/lib/python3.12/site-packages/knockpy/mrc.py:276: UserWarning: 
+	---------------------------------------------------------
+	---------------------------------------------------------
+	The choldate package is not installed:
+	solving for MVR or maxent knockoffs without it will be 
+	~5x slower. For instructions on how to install choldate,
+	see https://amspector100.github.io/knockpy/installation.html.
+	To disable this warning, set choldate_warning=False as an 
+	argument or a knockoff_kwarg.
+	----------------------------------------------------------
+	----------------------------------------------------------
+
+  warnings.warn(constants.CHOLDATE_WARNING)
+Finished comp of blocks, putting together
+/home/zhangxiaochen/anaconda3/envs/knockBO-env/lib/python3.12/site-packages/knockpy/mrc.py:90: RuntimeWarning: divide by zero encountered in divide
+  trace_invG = (1 / (eigs_diff + smoothing)).sum() + (1 / (eigs_S + smoothing)).sum()
+100%|██████████| 3/3 [47:40<00:00, 1148.55s/it]100%|██████████| 3/3 [47:40<00:00, 953.58s/it] 
+The hierachical knockoff matrix of training features is saved.
