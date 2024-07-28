@@ -81,10 +81,9 @@ Knoop-Knockoff-Enhancement/
 │       ├── community_and_crime_dataset/
 │       ├── energy_data_dataset/
 │       └── superconductivity_dataset/
-├── results/
-│   ├── simulations/
-│   └── real_data_experiments/
-└── tests/
+└── results/
+    ├── simulations/
+    └── real_data_experiments/
 ```
 
 ## License
