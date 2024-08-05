@@ -1,6 +1,6 @@
 # Knoop: Practical Enhancement of Knockoff with Over-Parameterization for Variable Selection
 
-This repository contains the code and data for the paper "Knoop: Practical Enhancement of Knockoff with Over-Parameterization for Variable Selection" accepted by Springer Machine Learning Journal.
+This repository contains the code and data for the paper "Knoop: Practical Enhancement of Knockoff with Over-Parameterization for Variable Selection" which is in submission.
 
 ## Table of Contents
 - [Background](#background)
@@ -90,5 +90,5 @@ Knoop-Knockoff-Enhancement/
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## References
-- Original Paper: Zhang, X., Cai, Y., Xiong, H.: Practical Enhancement of Knockoff with Over-Parameterization for Variable Selection. ACML 2024 Journal Track Submission, (2024).
+- Original Paper: Zhang, X., Cai, Y., Xiong, H.: Practical Enhancement of Knockoff with Over-Parameterization for Variable Selection. In Submission, (2024).
 
