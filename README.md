@@ -1,6 +1,6 @@
 # Knoop: Practical Enhancement of Knockoff with Over-Parameterization for Variable Selection
 
-This repository contains the code and data for the paper "Knoop: Practical Enhancement of Knockoff with Over-Parameterization for Variable Selection" which is in submission.
+This repository contains the code and data for the paper "Knoop: Practical Enhancement of Knockoff with Over-Parameterization for Variable Selection", which is in submission.
 
 ## Table of Contents
 - [Background](#background)
