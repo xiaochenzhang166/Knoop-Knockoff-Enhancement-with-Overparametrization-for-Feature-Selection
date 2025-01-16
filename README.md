@@ -14,6 +14,9 @@ This repository contains the code and data for the paper "Knoop: Practical Enhan
 ## Background
 In this project, we present an enhancement to the Knockoff filter method using over-parameterization for improved variable selection in high-dimensional settings. The details can be found in our [paper](https://openreview.net/forum?id=jWeyv03uXM&noteId=jWeyv03uXM).
 
+## Preprint Version
+The preprint version of the paper "Practical Enhancement of Knockoff with Over-Parameterization for Variable Selection" will be uploaded to this repository shortly.
+
 ## Data Sources
 - Alon dataset: [CRAN AlonDS](https://search.r-project.org/CRAN/refmans/HiDimDA/html/AlonDS.html)
 - Superconductivity dataset, Energy dataset, Community and Crime dataset: [UCI Machine Learning Repository](https://archive.ics.uci.edu/datasets)
