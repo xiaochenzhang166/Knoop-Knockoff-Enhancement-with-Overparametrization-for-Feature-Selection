@@ -14,7 +14,7 @@ This repository contains the code and data for the paper "Knoop: Practical Enhan
 ## Background
 In this project, we present an enhancement to the Knockoff filter method using over-parameterization for improved variable selection in high-dimensional settings. The details can be found in our [paper](https://openreview.net/forum?id=jWeyv03uXM&noteId=jWeyv03uXM).
 
-## Preprint Version;
+## Preprint Version
 For the preprint version of the paper "Practical Enhancement of Knockoff with Over-Parameterization for Variable Selection", see this [webpage]( https://github.com/RubyZhang166/Knoop-Knockoff-Enhancement-with-Overparametrization-for-Feature-Selection/blob/main/Practical_Enhancement_of_Knockoff_with_Over_Parameterization_for_Variable_Selection.pdf).
 
 ## Data Sources
