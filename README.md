@@ -2,6 +2,8 @@
 
 **Official implementation of the paper "Knoop: Practical Enhancement of Knockoff with Over-Parameterization for Variable Selection" with PyTorch.**
 
+![Example Image](knoop-ridgeless.png)
+
 This repository contains the code and data for **Knoop**, a novel approach to feature selection that enhances the standard Knockoff framework. By leveraging recursive generation of multi-layered knockoff variables and incorporating a Ridgeless regression model, this method improves model fitness and ensures stable variable selection. Additionally, **Knoop** employs an anomaly-based significance test for FDR control, addressing the limitations of traditional knockoff methods. Extensive experiments demonstrate the superior performance of **Knoop** over existing methods on both simulated and real-world datasets. 
 
 The paper was published in *Machine Learning* on 17 January 2025, Volume 114, article number 26.
