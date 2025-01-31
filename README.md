@@ -11,9 +11,6 @@ This repository contains the code and data for the paper "Knoop: Practical Enhan
 - [License](#license)
 - [References](#references)
 
-## Background
-In this project, we present an enhancement to the Knockoff filter method using over-parameterization for improved variable selection in high-dimensional settings. The details can be found in our [paper](https://openreview.net/forum?id=jWeyv03uXM&noteId=jWeyv03uXM).
-
 ## Preprint Version
 For the preprint version of the paper "Practical Enhancement of Knockoff with Over-Parameterization for Variable Selection", see this [pdf](https://xiaochenzhang166.github.io/paper/Practical_Enhancement_of_Knockoff_with_Over_Parameterization_for_Variable_Selection.pdf).
 
@@ -91,8 +88,4 @@ Knoop-Knockoff-Enhancement/
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
-
-## References
-- Original Paper: Zhang, X., Cai, Y., Xiong, H.: Practical Enhancement of Knockoff with Over-Parameterization for Variable Selection. Accepted for publication in Springer Machine Learning, (2024).
-
 
