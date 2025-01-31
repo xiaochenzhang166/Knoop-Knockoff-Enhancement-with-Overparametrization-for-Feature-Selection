@@ -92,6 +92,23 @@ Knoop-Knockoff-Enhancement/
     └── real_data_experiments/
 ```
 
+## Citation
+
+If you use the code or the data for your research, please cite our paper as follows:
+
+```bibtex
+@article{zhang2025knoop,
+  title={Knoop: practical enhancement of knockoff with over-parameterization for variable selection},
+  author={Zhang, Xiaochen and Cai, Yunfeng and Xiong, Haoyi},
+  journal={Machine Learning},
+  volume={114},
+  number={1},
+  pages={26},
+  year={2025},
+  publisher={Springer}
+}
+```
+
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
