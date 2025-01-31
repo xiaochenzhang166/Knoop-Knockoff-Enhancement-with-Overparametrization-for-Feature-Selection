@@ -1,6 +1,6 @@
 # Knoop: Practical Enhancement of Knockoff with Over-Parameterization for Variable Selection
 
-This repository contains the code and data for the paper "Knoop: Practical Enhancement of Knockoff with Over-Parameterization for Variable Selection", which was accepted for publication in Springer Machine Learning on December 12, 2024.
+This repository contains the code and data for the paper "Knoop: Practical Enhancement of Knockoff with Over-Parameterization for Variable Selection", which was accepted for publication in Machine Learning on December 12, 2024.
 
 ## Table of Contents
 - [Background](#background)
