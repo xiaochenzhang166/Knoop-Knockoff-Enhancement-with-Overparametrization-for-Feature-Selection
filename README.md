@@ -6,7 +6,7 @@ This repository contains the code and data for **Knoop**, a novel approach to fe
 
 The paper was published in *Machine Learning* on 17 January 2025, Volume 114, article number 26.
 
-
+![Example Image](knoop-ridgeless.png)
 
 ## Table of Contents
 - [Background](#background)
