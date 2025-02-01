@@ -18,7 +18,7 @@ The paper was published in *Machine Learning* on 17 January 2025, Volume 114, ar
 - [References](#references)
 
 ## Preprint Version
-For the preprint version of the paper "Practical Enhancement of Knockoff with Over-Parameterization for Variable Selection", see this [pdf](https://xiaochenzhang166.github.io/paper/Practical_Enhancement_of_Knockoff_with_Over_Parameterization_for_Variable_Selection.pdf).
+For the preprint version of the paper "Practical Enhancement of Knockoff with Over-Parameterization for Variable Selection", see this [pdf](https://arxiv.org/abs/2501.17889).
 
 ## Data Sources
 - Alon dataset: [CRAN AlonDS](https://search.r-project.org/CRAN/refmans/HiDimDA/html/AlonDS.html)
